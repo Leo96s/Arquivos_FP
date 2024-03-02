@@ -1,0 +1,172 @@
+2020-11-03 19:01:00 - Abrir o ficheiro
+2020-11-03 19:01:00 - Colocar 10 registos
+2020-11-03 19:01:00 - Mostrar 10 registos
+2020-11-03 19:01:00 - Ler o 4º registo e modificá-lo
+2020-11-03 19:01:00 - Mostrar 10 registos
+2020-11-05 11:00:36 - Abrir o ficheiro
+2020-11-05 11:00:36 - Colocar 10 registos
+2020-11-05 11:00:36 - Mostrar 10 registos
+2020-11-05 11:00:36 - Ler o 4º registo e modificá-lo
+2020-11-05 11:00:36 - Mostrar 10 registos
+2020-11-05 11:17:54 - Abrir o ficheiro
+2020-11-05 11:17:54 - Colocar 10 registos
+2020-11-05 11:17:54 - Mostrar 10 registos
+2020-11-05 11:17:54 - Ler o 4º registo e modificá-lo
+2020-11-05 11:17:54 - Mostrar 10 registos
+2020-11-05 11:19:22 - Colocar 10 registos
+2020-11-05 11:19:22 - Mostrar 10 registos
+2020-11-05 11:19:22 - Ler o 4º registo e modificá-lo
+2020-11-05 11:19:22 - Mostrar 10 registos
+2020-11-05 11:25:03 - Colocar 10 registos
+2020-11-05 11:25:03 - Colocar 10 registos
+2020-11-05 13:20:23 - Colocar 10 registos
+2020-11-05 13:20:23 - Colocar 10 registos
+2020-11-05 13:25:13 - Adicionar
+2020-11-05 13:25:13 - Listar
+2020-11-05 13:25:13 - Consultar
+2020-11-05 13:26:27 - Adicionar
+2020-11-05 13:26:27 - Listar
+2020-11-05 13:26:27 - Consultar
+2020-11-05 13:26:27 - Consultar
+2020-11-05 13:26:48 - Adicionar
+2020-11-05 13:26:48 - Listar
+2020-11-05 13:26:48 - Consultar
+2020-11-05 13:26:48 - Consultar
+2020-11-05 13:27:48 - Adicionar
+2020-11-05 13:27:48 - Listar
+2020-11-05 13:27:48 - Consultar
+2020-11-05 13:27:48 - Consultar
+2020-11-05 13:28:04 - Adicionar
+2020-11-05 13:28:04 - Listar
+2020-11-05 13:28:04 - Consultar
+2020-11-05 13:28:04 - Consultar
+2020-11-05 13:29:25 - Adicionar
+2020-11-05 13:29:25 - Listar
+2020-11-05 13:29:25 - Consultar
+2020-11-05 13:29:25 - Consultar
+2020-11-05 13:29:40 - Adicionar
+2020-11-05 13:29:40 - Listar
+2020-11-05 13:29:40 - Consultar
+2020-11-05 13:29:40 - Consultar
+2020-11-05 13:33:15 - Adicionar
+2020-11-05 13:33:15 - Listar
+2020-11-05 13:33:15 - Consultar
+2020-11-05 13:33:15 - Consultar
+2020-11-05 13:33:15 - Atualizar
+2020-11-05 13:33:15 - Listar
+2020-11-05 13:33:36 - Adicionar
+2020-11-05 13:33:36 - Listar
+2020-11-05 13:33:36 - Consultar
+2020-11-05 13:33:36 - Consultar
+2020-11-05 13:33:36 - Atualizar
+2020-11-05 13:33:36 - Listar
+2020-11-05 13:34:19 - Adicionar
+2020-11-05 13:34:19 - Listar
+2020-11-05 13:34:19 - Consultar
+2020-11-05 13:34:19 - Consultar
+2020-11-05 13:34:19 - Atualizar
+2020-11-05 13:34:19 - Listar
+2020-11-05 13:34:55 - Adicionar
+2020-11-05 13:34:55 - Listar
+2020-11-05 13:34:56 - Consultar
+2020-11-05 13:34:56 - Consultar
+2020-11-05 13:34:56 - Atualizar
+2020-11-05 13:34:56 - Listar
+2020-11-05 13:35:22 - Adicionar
+2020-11-05 13:35:22 - Listar
+2020-11-05 13:35:22 - Consultar
+2020-11-05 13:35:22 - Consultar
+2020-11-05 13:35:22 - Atualizar
+2020-11-05 13:35:22 - Listar
+2020-11-05 13:37:53 - Adicionar
+2020-11-05 13:37:53 - Listar
+2020-11-05 13:37:53 - Consultar
+2020-11-05 13:37:53 - Consultar
+2020-11-05 13:37:53 - Atualizar
+2020-11-05 13:37:53 - Listar
+2020-11-05 13:38:18 - Adicionar
+2020-11-05 13:38:18 - Listar
+2020-11-05 13:38:18 - Consultar
+2020-11-05 13:38:18 - Consultar
+2020-11-05 13:38:18 - Atualizar
+2020-11-05 13:38:18 - Listar2
+2020-11-08 10:22:24 - Adicionar
+2020-11-08 10:22:24 - Listar
+2020-11-08 10:22:24 - Consultar
+2020-11-08 10:22:24 - Consultar
+2020-11-08 10:22:24 - Atualizar
+2020-11-08 10:22:24 - Listar2
+2020-11-08 10:22:24 - Eliminar
+2020-11-08 10:22:24 - Listar2
+2020-11-08 10:23:15 - Adicionar
+2020-11-08 10:23:15 - Listar
+2020-11-08 10:23:15 - Consultar
+2020-11-08 10:23:15 - Consultar
+2020-11-08 10:23:15 - Atualizar
+2020-11-08 10:23:15 - Listar2
+2020-11-08 10:23:15 - Eliminar
+2020-11-08 10:23:15 - Listar2
+2020-11-08 10:24:44 - Adicionar
+2020-11-08 10:24:44 - Listar
+2020-11-08 10:24:44 - Consultar
+2020-11-08 10:24:44 - Consultar
+2020-11-08 10:24:44 - Atualizar
+2020-11-08 10:24:44 - Listar2
+2020-11-08 10:24:44 - Eliminar
+2020-11-08 10:24:44 - Listar2
+2020-11-08 10:24:50 - Adicionar
+2020-11-08 10:24:50 - Listar
+2020-11-08 10:24:50 - Consultar
+2020-11-08 10:24:50 - Consultar
+2020-11-08 10:24:50 - Atualizar
+2020-11-08 10:24:50 - Listar2
+2020-11-08 10:24:50 - Eliminar
+2020-11-08 10:24:50 - Listar2
+2020-11-08 10:24:58 - Adicionar
+2020-11-08 10:24:58 - Listar
+2020-11-08 10:24:58 - Consultar
+2020-11-08 10:24:58 - Consultar
+2020-11-08 10:24:58 - Atualizar
+2020-11-08 10:24:58 - Listar2
+2020-11-08 10:24:58 - Eliminar
+2020-11-08 10:24:58 - Listar3
+2023-01-06 10:16:23 - Adicionar
+2023-01-06 10:16:23 - Listar
+2023-01-06 10:16:23 - Consultar
+2023-01-06 10:16:23 - Consultar
+2023-01-06 10:16:23 - Atualizar
+2023-01-06 10:16:23 - Listar2
+2023-01-06 10:16:23 - Eliminar
+2023-01-06 10:16:23 - Listar3
+2023-01-06 10:17:35 - Adicionar
+2023-01-06 10:17:35 - Listar
+2023-01-06 10:17:35 - Consultar
+2023-01-06 10:17:35 - Consultar
+2023-01-06 10:17:35 - Atualizar
+2023-01-06 10:17:35 - Listar2
+2023-01-06 10:17:36 - Eliminar
+2023-01-06 10:17:36 - Listar3
+2023-01-06 10:17:41 - Adicionar
+2023-01-06 10:17:41 - Listar
+2023-01-06 10:17:41 - Consultar
+2023-01-06 10:17:41 - Consultar
+2023-01-06 10:17:41 - Atualizar
+2023-01-06 10:17:41 - Listar2
+2023-01-06 10:17:41 - Eliminar
+2023-01-06 10:17:41 - Listar3
+2023-01-06 10:18:04 - Adicionar
+2023-01-06 10:18:04 - Listar
+2023-01-06 10:18:04 - Consultar
+2023-01-06 10:18:04 - Consultar
+2023-01-06 10:18:04 - Atualizar
+2023-01-06 10:18:04 - Listar2
+2023-01-06 10:18:04 - Eliminar
+2023-01-06 10:18:04 - Listar3
+2023-01-12 17:38:48 - Adicionar
+2023-01-12 17:38:48 - Listar
+2023-01-12 17:38:48 - Consultar
+2023-01-12 17:38:48 - Consultar
+2023-01-12 17:38:48 - Atualizar
+2023-01-12 17:38:48 - Listar2
+2023-01-12 17:38:48 - Eliminar
+2023-01-12 17:38:48 - Listar3
