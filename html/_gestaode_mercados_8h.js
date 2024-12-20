@@ -1,0 +1,28 @@
+var _gestaode_mercados_8h =
+[
+    [ "Mercado", "struct_mercado.html", "struct_mercado" ],
+    [ "Mercados", "struct_mercados.html", "struct_mercados" ],
+    [ "ERRO_LISTA_MERCADOS_CHEIA", "_gestaode_mercados_8h.html#a9f83141067cfdc9e40d0a1fded3642ae", null ],
+    [ "ERRO_LISTA_MERCADOS_VAZIA", "_gestaode_mercados_8h.html#a00c56891cfffca1dd0e2dbbec4169481", null ],
+    [ "ERRO_MERCADO_EXISTE", "_gestaode_mercados_8h.html#ad71017f4215dfc35b87ab0a7cae5ac6d", null ],
+    [ "ERRO_MERCADO_NAO_EXISTE", "_gestaode_mercados_8h.html#a711b6d30f4593552b90f446d37cf103b", null ],
+    [ "MAX_CODIGO_MERCADO", "_gestaode_mercados_8h.html#a060805022ed855a919007437b6152dc4", null ],
+    [ "MAX_ESTADO_MERCADO", "_gestaode_mercados_8h.html#a4775f0f229e0104809a0bd129d09a556", null ],
+    [ "MAX_NOME_MERCADO", "_gestaode_mercados_8h.html#a01bc7161d28faa7a2b7734ae15f9dc14", null ],
+    [ "MERCADO_TAM_INICIAL", "_gestaode_mercados_8h.html#add6fb7abd6e0d4c681b282d483b60562", null ],
+    [ "MIN_CODIGO_MERCADO", "_gestaode_mercados_8h.html#a7ae6d23905d46810584e53d8216d3497", null ],
+    [ "MSG_OBTER_CODIGO_MERCADO", "_gestaode_mercados_8h.html#ac17f38a46a1d067a3f7e0706b34da57a", null ],
+    [ "MSG_OBTER_NOME_MERCADO", "_gestaode_mercados_8h.html#a528688c7cacb8438c0114443aea9a1d0", null ],
+    [ "apagarDadosMercado", "_gestaode_mercados_8h.html#a5fe1af2fba58c42525e82ee3cb320d11", null ],
+    [ "atualizarMercados", "_gestaode_mercados_8h.html#a79a8c2921fedcba8218dee8eb74cbb56", null ],
+    [ "carregarMercados", "_gestaode_mercados_8h.html#a601bdc2088f653f3ae58c4bf31a743d1", null ],
+    [ "guardarMercados", "_gestaode_mercados_8h.html#afdf3addb5da9d59950d367bdd29c2b6b", null ],
+    [ "imprimirMercado", "_gestaode_mercados_8h.html#a752416c526c94fa4c4e395cacfab1fea", null ],
+    [ "inserirMercados", "_gestaode_mercados_8h.html#a3504fd001f1e92c8ef0ac00daee73242", null ],
+    [ "libertarMercados", "_gestaode_mercados_8h.html#aeba585d351384c93aeef36ace9aad7c9", null ],
+    [ "listarMercados", "_gestaode_mercados_8h.html#aef5ca16842b58fb00d409607c0e36a6f", null ],
+    [ "memoriaMercados", "_gestaode_mercados_8h.html#aa6a7f5a67855eb48d05a59792b4dcced", null ],
+    [ "procurarMercado", "_gestaode_mercados_8h.html#a39c41a356e917c33b0720195f582b252", null ],
+    [ "procurarMercados", "_gestaode_mercados_8h.html#aea7517b4887325cc576bf00ff3d75e3c", null ],
+    [ "verificarEstadoMercado", "_gestaode_mercados_8h.html#ac01ba28bf473650a1a0749566bf3a8a2", null ]
+];

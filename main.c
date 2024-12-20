@@ -1,90 +1,110 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/* 
+ * File:   main.c
+ * Author: Leonardo
+ *
+ * Created on 11 de fevereiro de 2023, 17:47
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include "menus.h"
+#include "GestaodeVendedores.h"
+#include "GestaodeMercados.h"
+#include "GestaodeComissoes.h"
 
-#define LINE 1024
-#define STR 128
+int main(int argc, char** argv) {
+    int opcao, carregardados = 0, guardardados = 0;
+    int carregar_dados = 0, guardar_dados = 0;
 
-#define FILENAME "data.csv"
-
-int read_with_format() {
-    int result, line = 0, id, age;
-    char header_id[STR], header_age[STR], firstName[STR], lastName[STR], email[STR], type[STR];
-
-    FILE* f = fopen(FILENAME, "r");
-    if (f == NULL) {
-        return 0;
-    }
-
-    while (!feof(f)) {
-        if (line++ == 0) {
-            // read header
-            result = fscanf(f, "%[^,],%[^,],%[^,],%[^,],%[^,],%[^\n]", header_id, firstName, lastName, email, header_age, type);
-            printf("%s %s %s %s %s %s\n", header_id, firstName, lastName, email, header_age, type);
-        } else {
-            // read data
-            result = fscanf(f, "%d,%[^,],%[^,],%[^,],%d,%[^\n]", &id, firstName, lastName, email, &age, type);
-            printf("%d %s %s %s %d %s\n", id, firstName, lastName, email, age, type);
+    Vendedores vendedores = {.contador = 0};
+    Mercados mercados = {.contador = 0};
+    Comissoes comissoes = {.contador = 0};
+    
+    do {
+        if (carregardados != 0 && carregardados != 1 || 
+                carregar_dados != 0 && carregar_dados != 1) {
+            puts("Digite uma das opcoes disponiveis!");
         }
-
-        if (result != 6) {
-            // missing data
-            return 0;
+        printf("Pretende carregar os dados utilizados na ultima sessao?(0-Nao)(1-Sim): ");
+        scanf("%d", &carregardados);
+        if (carregardados == 0) {
+            puts("Tem mesmo a certeza? Os dados anteriores serao perdidos!");
+            printf("(0-Nao)(1-Sim): ");
+            scanf("%d", &carregar_dados);
         }
+    } while (carregardados != 0 && carregardados != 1 ||
+            carregar_dados != 0 && carregar_dados != 1);
+
+    if (carregardados == 1 || carregar_dados == 0) {
+        carregarVendedores(&vendedores, VENDEDORES_DB_FILE);
+        carregarMercados(&mercados, MERCADOS_DB_FILE);
+        carregarComissoes(&comissoes, &vendedores, COMISSOES_DB_FILE);
     }
+    
+    //Menu principal
+    do {
+        printf("-------------------Menu------------------\n");
+        printf("\n1 - Gestao de Vendores");
+        printf("\n2 - Gestao de Mercados");
+        printf("\n3 - Gestao de Comissoes");
+        printf("\n4 - Listagens");
+        printf("\n0 - Sair");
+        printf("\n-----------------------------------------\n");
 
-    fclose(f);
+        printf("Opcao: ");
+        scanf("%d", &opcao);
 
-    return 1;
-}
-
-int read_with_token() {
-    int line = 0, id, age;
-    char *token, row[STR], firstName[STR], lastName[STR], email[STR], type[STR];
-
-    FILE* f = fopen(FILENAME, "r");
-    if (f == NULL) {
-        return 0;
-    }
-
-    while (fgets(row, LINE, f)) {
-        if (line++) {
-            strtok(row, "\n");
-            token = strtok(row, ",");
-
-            id = atoi(token);
-            token = strtok(NULL, ",");
-
-            strcpy(firstName, token);
-            token = strtok(NULL, ",");
-
-            strcpy(lastName, token);
-            token = strtok(NULL, ",");
-
-            strcpy(email, token);
-            token = strtok(NULL, ",");
-
-            age = atoi(token);
-            token = strtok(NULL, ",");
-
-            strcpy(type, token);
-            token = strtok(NULL, ",");
-
-            printf("%d, %s, %s, %s, %d, %s\n", id, firstName, lastName, email, age, type);
+        switch (opcao) {
+            case 0:
+                break;
+            case 1:
+                menudeVendedores(&vendedores, &comissoes); // Submenu de vendedores
+                break;
+            case 2:
+                menudeMercados(&mercados, &comissoes); // Submenu de mercados
+                break;
+            case 3:
+                menudeComissoes(&comissoes, &vendedores, &mercados); //Submenu de comissoes
+                break;
+            case 4:
+                listagens(&comissoes, &vendedores, &mercados); // Submenu de listagens
+                break;
+            default:
+                printf("\nDigitou uma opcao que nao existe!\n");
+                break;
         }
+    } while (opcao != 0);
+    
+    do {
+        if (guardardados != 0 && guardardados != 1 ||
+                guardar_dados != 0 && guardar_dados != 1) {
+            puts("Digite uma das opcoes disponiveis!");
+        }
+        printf("Pretende guardar os dados utilizados nesta sessao?(0-Nao)(1-Sim): ");
+        scanf("%d", &guardardados);
+        if (guardardados == 0) {
+            puts("Tem mesmo a certeza? Os dados serao perdidos!");
+            printf("(0-Nao)(1-Sim): ");
+            scanf("%d", &guardar_dados);
+        }
+    } while (guardardados != 0 && guardardados != 1 ||
+            guardar_dados != 0 && guardar_dados != 1);
+
+    if (guardardados == 1 || guardar_dados == 0) {
+        guardarVendedores(&vendedores, VENDEDORES_DB_FILE);
+        guardarMercados(&mercados, MERCADOS_DB_FILE);
+        guardarComissoes(&comissoes, &vendedores, COMISSOES_DB_FILE);
     }
-
-    fclose(f);
-
-    return 1;
-}
-
-int main() {
-
-    read_with_format() ? puts("\nsuccess") : printf("\nError");
-
-    read_with_token() ? puts("\nsuccess") : printf("\nError");
-
+    
+    libertarVendedores(&vendedores);
+    libertarMercados(&mercados);
+    libertarComissoes(&comissoes);
     return (EXIT_SUCCESS);
 }
 

@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['carregarcomissoes_0',['carregarComissoes',['../_gestaode_comissoes_8c.html#a100e9a1542d7c8ec906739baee9905b8',1,'carregarComissoes(Comissoes *comissoes, Vendedores *vendedores, char *ficheiro):&#160;GestaodeComissoes.c'],['../_gestaode_comissoes_8h.html#a100e9a1542d7c8ec906739baee9905b8',1,'carregarComissoes(Comissoes *comissoes, Vendedores *vendedores, char *ficheiro):&#160;GestaodeComissoes.c']]],
+  ['carregarmercados_1',['carregarMercados',['../_gestaode_mercados_8c.html#a601bdc2088f653f3ae58c4bf31a743d1',1,'carregarMercados(Mercados *mercados, char *ficheiro):&#160;GestaodeMercados.c'],['../_gestaode_mercados_8h.html#a601bdc2088f653f3ae58c4bf31a743d1',1,'carregarMercados(Mercados *mercados, char *ficheiro):&#160;GestaodeMercados.c']]],
+  ['carregarvendedores_2',['carregarVendedores',['../_gestaode_vendedores_8c.html#a2c14b32d29e659ee797085e080a82dda',1,'carregarVendedores(Vendedores *vendedores, char *ficheiro):&#160;GestaodeVendedores.c'],['../_gestaode_vendedores_8h.html#a2c14b32d29e659ee797085e080a82dda',1,'carregarVendedores(Vendedores *vendedores, char *ficheiro):&#160;GestaodeVendedores.c']]],
+  ['cleaninputbuffer_3',['cleanInputBuffer',['../_input_8c.html#a11ac4d3ec555747d95fee8ae7aa18b5d',1,'cleanInputBuffer():&#160;Input.c'],['../_input_8h.html#a11ac4d3ec555747d95fee8ae7aa18b5d',1,'cleanInputBuffer():&#160;Input.c']]],
+  ['comparardatas_4',['compararDatas',['../_tools_8c.html#ae0e3180597d93a73c581f38a5da3800c',1,'compararDatas(Comissoes *comissoes, Data *data1, Data *data2, int n_comissao, int codvend):&#160;Tools.c'],['../_tools_8h.html#ae0e3180597d93a73c581f38a5da3800c',1,'compararDatas(Comissoes *comissoes, Data *data1, Data *data2, int n_comissao, int codvend):&#160;Tools.c']]]
+];
